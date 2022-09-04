@@ -7,7 +7,7 @@
     --accent-text-color: #2196F3;
     --logo-text-color: #000000;
 }
-/* Global body */
+/* GLOBAL BODY */
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -23,7 +23,7 @@ body {
 .link {
     text-decoration: none;
 }
-/* header */
+/* HEADER */
 .logo {
     color: var(--accent-text-color);
     font-family: 'Raleway', sans-serif;
@@ -40,24 +40,17 @@ body {
     color:var(--secondary-text-color);
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.14;
+    line-height: 1.11;
     letter-spacing: 0.02em;
 }
-.header-email {
-    color: var(--accent-text-color);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-}
-.header-tel {
+.header-contacts {
     color: var(--primary-text-color);
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.14;
+    line-height: 1.11;
     letter-spacing: 0.02em;
 }
-/* hero */
+/* HERO */
 .hero {
     background-color: var(--secondary-bkgd-color);
     text-align: center;
@@ -66,7 +59,7 @@ body {
     color: var(--primary-bkgd-color);
     font-weight: 900;
     font-size: 44px;
-    line-height: 1.36;
+    line-height: 1.4;
     letter-spacing: 0.06em;
     text-transform: uppercase;
 }
@@ -81,16 +74,42 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
 }
-/* Our advantages */
+/* OUR FEATURES */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.secondary-title {
+    color: var(--secondary-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.secondary-text {
+    color: var(--primary-text-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+/* WHAT WE ARE DOING */
 
-/* What we are doing */
-
-/* Our team */
+/* OUR TEAM */
 .our-team {
     background-color: var(--team-bkgd-color);
 }
 
-/* Footer */
+/* FOOTER */
 footer {
     background-color: var(--secondary-bkgd-color);
 }
