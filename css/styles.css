@@ -1,0 +1,107 @@
+:root {
+    --primary-bkgd-color:#FFFFFF;
+    --secondary-bkgd-color:#2F303A;
+    --team-bkgd-color:#F5F4FA;
+    --primary-text-color: #757575;
+    --secondary-text-color: #212121;
+    --accent-text-color: #2196F3;
+    --logo-text-color: #000000;
+}
+/* Global body */
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    Background-color:var(--primary-bkgd-color);
+}
+.list {
+    list-style: none;
+}
+.link:hover,
+.link:focus {
+    color: var(--accent-text-color);
+}
+.link {
+    text-decoration: none;
+}
+/* header */
+.logo {
+    color: var(--accent-text-color);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+.studio-header{
+    color: var(--logo-text-color);
+}
+.header-link {
+    color:var(--secondary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.header-email {
+    color: var(--accent-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.header-tel {
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+/* hero */
+.hero {
+    background-color: var(--secondary-bkgd-color);
+    text-align: center;
+}
+.hero-title {
+    color: var(--primary-bkgd-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.button {
+    background-color: var(--accent-text-color);
+    color: var(--primary-bkgd-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+/* Our advantages */
+
+/* What we are doing */
+
+/* Our team */
+.our-team {
+    background-color: var(--team-bkgd-color);
+}
+
+/* Footer */
+footer {
+    background-color: var(--secondary-bkgd-color);
+}
+.studio-footer {
+    color: var(--primary-bkgd-color);
+}
+/* background primary #F5F5F5*/
+/* background secondary #F5F4FA */
+
+/* Basic text color #757575 */
+/* Links basic color #212121;*/
+/* link accent color #2196F3; */
+
+
