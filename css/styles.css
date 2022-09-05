@@ -6,6 +6,7 @@
     --secondary-text-color: #212121;
     --accent-text-color: #2196F3;
     --logo-text-color: #000000;
+    --contacts-footer-color: rgba(255, 255, 255, 0.6);
 }
 /* GLOBAL BODY */
 body {
@@ -87,7 +88,7 @@ body {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-.secondary-title {
+.feature-title {
     color: var(--secondary-text-color);
     font-weight: 700;
     font-size: 14px;
@@ -95,7 +96,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
-.secondary-text {
+.feature-text {
     color: var(--primary-text-color);
     font-weight: 400;
     font-size: 14px;
@@ -103,12 +104,34 @@ body {
     letter-spacing: 0.03em;
 }
 /* WHAT WE ARE DOING */
-
+.title {
+    color: var(--secondary-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
 /* OUR TEAM */
 .our-team {
     background-color: var(--team-bkgd-color);
 }
-
+.team-title {
+    color: var(--secondary-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.team-text {
+    color: var(--primary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
 /* FOOTER */
 footer {
     background-color: var(--secondary-bkgd-color);
@@ -116,11 +139,24 @@ footer {
 .studio-footer {
     color: var(--primary-bkgd-color);
 }
-/* background primary #F5F5F5*/
-/* background secondary #F5F4FA */
-
-/* Basic text color #757575 */
-/* Links basic color #212121;*/
-/* link accent color #2196F3; */
+address {
+font-style: normal;
+}
+.address {
+    color: var(--primary-bkgd-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+.contact-footer {
+    color: var(--contacts-footer-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    text-decoration: none;   
+}
 
 
